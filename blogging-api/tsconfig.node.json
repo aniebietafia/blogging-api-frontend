@@ -11,7 +11,6 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "types": ["node"],
-    "allowJs": true
+    "types": ["node"]
   }
 }
