@@ -45,32 +45,6 @@ a,
     flex-direction: column;
   }
 
-  label,
-  input {
-    margin-bottom: 0.5rem;
-    display: block;
-    width: 100%;
-  }
-
-  label {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  input {
-    padding: 0.75rem;
-    border-radius: 2px;
-    border: none;
-  }
-  input:focus {
-    border: none;
-    outline: none;
-  }
-
-  label {
-    font-weight: bold;
-  }
-
   ul {
     list-style: none;
     margin: 1rem 0;
