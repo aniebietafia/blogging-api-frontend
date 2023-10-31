@@ -5,13 +5,14 @@
     <h1>Welcome to Olive Blogging API</h1>
     <p>...bring your creative ideas to life.</p>
   </div>
-  <!-- <div class="right">
-    <div>
+  <div class="right">
+    <sign-in></sign-in>
+    <!-- <div>
       <label for="confirm">Confirm Password</label>
       <input :type="showPassword ? 'text' : 'password'" id="confirm" v-model="password" />
       <button @click="generateStrongPassword">GENERATE PASSWORD</button>
-    </div>
-  </div> -->
+    </div> -->
+  </div>
 </template>
 
 <style scoped>
