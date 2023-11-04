@@ -1,4 +1,11 @@
-<script></script>
+<script>
+import LoginPage from './components/LoginPage.vue'
+export default {
+  components: {
+    LoginPage
+  }
+}
+</script>
 
 <template>
   <div class="left">
@@ -6,12 +13,7 @@
     <p>...bring your creative ideas to life.</p>
   </div>
   <div class="right">
-    <sign-in></sign-in>
-    <!-- <div>
-      <label for="confirm">Confirm Password</label>
-      <input :type="showPassword ? 'text' : 'password'" id="confirm" v-model="password" />
-      <button @click="generateStrongPassword">GENERATE PASSWORD</button>
-    </div> -->
+    <LoginPage></LoginPage>
   </div>
 </template>
 
