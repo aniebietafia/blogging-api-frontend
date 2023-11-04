@@ -5,8 +5,8 @@ export default {
     return {
       userEmail: '',
       password: '',
-      passwordFieldType: 'password'
-      //isEmailValid: true
+      passwordFieldType: 'password',
+      emailValid: true
     }
   },
   computed: {
@@ -18,9 +18,9 @@ export default {
   methods: {
     handleSubmit() {
       if (this.userEmail === '') {
-        this.isEmailValid = false
+        this.emailValid = false
       } else {
-        this.isEmailValid = true
+        this.emailValid = true
       }
     },
     togglePasswordVisibility() {
