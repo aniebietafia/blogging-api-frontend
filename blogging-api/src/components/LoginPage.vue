@@ -29,24 +29,6 @@ export default {
       } else {
         this.passwordFieldType = 'password'
       }
-    },
-    getMonth() {
-      const month = new Date().getMonth()
-      const monthNames = [
-        'Jan.',
-        'Feb.',
-        'March',
-        'April',
-        'May',
-        'June',
-        'July',
-        'Aug.',
-        'Sept.',
-        'Oct.',
-        'Nov.',
-        'Dec.'
-      ]
-      return monthNames[month]
     }
   }
 }
@@ -96,13 +78,6 @@ export default {
     <div>
       <button>Create an account</button>
     </div>
-
-    <footer>
-      <small
-        >&copy; {{ `${getMonth()} ${new Date().getFullYear()}` }} Olive Blogging. All rights
-        reserved</small
-      >
-    </footer>
   </section>
 </template>
 
