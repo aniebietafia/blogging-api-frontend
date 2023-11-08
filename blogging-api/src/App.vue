@@ -1,8 +1,10 @@
 <script>
 import LoginPage from './components/LoginPage.vue'
+import FooterComponent from './components/FooterComponent.vue'
 export default {
   components: {
-    LoginPage
+    LoginPage,
+    FooterComponent
   }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
   </div>
   <div class="right">
     <LoginPage></LoginPage>
+    <FooterComponent></FooterComponent>
   </div>
 </template>
 
