@@ -10,6 +10,18 @@ export default {
       confirmPassword: '',
       enteredGender: ''
     }
+  },
+  methods: {
+    submitData() {
+      const payload = {
+        fullname: this.enteredFullname,
+        email: this.enteredEmail,
+        password: this.enteredPassword,
+        confirmPassword: this.confirmPassword,
+        gender: this.enteredGender
+      }
+      this.$emit('register-user', payload)
+    }
   }
 }
 </script>
